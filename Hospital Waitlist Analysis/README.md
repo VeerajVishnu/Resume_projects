@@ -2,6 +2,7 @@
 
 ## Overview
 ![Overall Dashboard](https://github.com/user-attachments/assets/749b1274-e50b-4cdd-ae87-298c7c7d5f6b)
+![detail](https://github.com/user-attachments/assets/6ecc334e-829b-40d4-a581-c9028170b058)
 
 ### Project Plan
 The primary objective of this project is to analyze hospital waitlist data in order to identify specialties that may require additional personnel and to detect any long-term trends in the waitlists. This analysis is essential for optimizing resource allocation and improving patient care within the hospital system.
@@ -17,7 +18,7 @@ To facilitate comprehensive analysis, the inpatient and outpatient datasets were
 ### Data Attributes
 The key attributes selected for visualization in the dashboard include:
 
-- **Total Waitlist**: This attribute represents the number of patients on the waitlist for each recorded entry. It is crucial for understanding the demand for medical services in various specialties.
+- **Total Waitlist**: This attribute shows the number of patients on the waitlist for each entry, giving a clear picture of the demand for medical services across different specialties. The visualization includes an option to toggle between __average__ and __median__ calculations, allowing for flexible analysis.
   
 - **Specialty**: Indicates the hospital department or medical specialty associated with the waitlist entry (e.g., General Surgery, Cardiology). This allows for the identification of departments with the highest waitlist volumes.
   
@@ -30,6 +31,8 @@ The key attributes selected for visualization in the dashboard include:
   
 - **Time Bands**: This attribute indicates the duration for which the patient is expected to require frequent or continuous care. It helps in forecasting resource needs and planning for patient follow-up care over time.
 
+
+## Insights
 
 
 
