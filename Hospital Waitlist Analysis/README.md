@@ -34,11 +34,43 @@ The key attributes selected for visualization in the dashboard include:
 
 ## Insights
 
-Slicers enable us to drill up and down median and average waitlist measures. Since our objective was to figure out which specialties have the highest waitlist counts, and ways to optimize the departments to reduce waitlist, we can achieve that analysis interactively.
+The dashboard allows for interactive analysis, enabling users to toggle between median and average waitlist measures using slicers. This flexibility is crucial for identifying which specialties have the highest waitlist counts and exploring ways to optimize departments to reduce these waitlists.
 
-To make it simpler, I designed a multi row card to feature the top 5 specialties by average or median waitlist, depending on which one is more appropriate. We find that Paediatric Dermatology has the highest waitlist over the timeframe we specified in the slicer. The statistics for Paediatric dermatology is as such:
+### Highlighted Findings
+
+To simplify the analysis, a multi-row card was designed to highlight the top 5 specialties by either average or median waitlist, depending on the chosen measure. Here are some key insights:
+
+#### Paediatric Dermatology
+Paediatric Dermatology emerged as the specialty with the highest waitlist during the specified timeframe:
 
 ![avg_paed_derm](https://github.com/user-attachments/assets/eda583ff-b771-46ad-8265-b0f820ca0915)
+
+- **Key Observations**:
+  - The majority of the waitlist consists of day cases.
+  - The most common time band is 18+ months, indicating that Paediatric Dermatology cases often require frequent check-ups for over a year.
+  - A noticeable uptick in inpatient cases occurred around April 2019.
+
+These insights suggest that the hospital may need to allocate more resources to Paediatric Dermatology to better manage the long wait times and high demand.
+
+#### Cardiology
+Cardiology also ranks among the top specialties with a high median waitlist:
+
+![median cardiology](https://github.com/user-attachments/assets/573fe43b-1181-4671-8644-7d84c894b055)
+
+- **Key Observations**:
+  - Both inpatient and day case waitlists have remained consistent from 2018 to 2021.
+  - Outpatient cases, however, have shown a slight upward trend over the same period.
+
+These trends can help guide resource planning to maintain consistency in service delivery and manage the increasing outpatient demand.
+
+### Detailed Analysis
+
+For a more granular view, the dashboard provides a detailed page where users can drill down further. For instance, if you want to analyze the waitlists specifically for Cardio-Thoracic Surgery within the Cardiology department, focusing only on inpatient cases and senior citizens, you can do so:
+
+![Cardio_Thoracic surgery_65](https://github.com/user-attachments/assets/985d99e4-7848-45d8-b3ca-15984f984453)
+
+This level of detail supports targeted decision-making, ensuring that hospital resources are allocated efficiently to meet the needs of specific patient groups and medical specialties.
+
 
 
 
