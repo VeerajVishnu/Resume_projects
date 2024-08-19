@@ -34,5 +34,12 @@ The key attributes selected for visualization in the dashboard include:
 
 ## Insights
 
+Slicers enable us to drill up and down median and average waitlist measures. Since our objective was to figure out which specialties have the highest waitlist counts, and ways to optimize the departments to reduce waitlist, we can achieve that analysis interactively.
+
+To make it simpler, I designed a multi row card to feature the top 5 specialties by average or median waitlist, depending on which one is more appropriate. We find that Paediatric Dermatology has the highest waitlist over the timeframe we specified in the slicer. The statistics for Paediatric dermatology is as such:
+
+![avg_paed_derm](https://github.com/user-attachments/assets/eda583ff-b771-46ad-8265-b0f820ca0915)
+
+
 
 
