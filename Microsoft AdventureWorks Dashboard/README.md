@@ -1,18 +1,27 @@
-# Hospital Waitlist PowerBI Dashboard
+# Microsoft AdventureWorks Sales PowerBI Dashboard
 
 ## Overview
 ![Overall_dash](https://github.com/user-attachments/assets/b13af47b-3e86-4b71-b836-554d9432a608)
 ![Detailed_Dash](https://github.com/user-attachments/assets/a205cb67-8cdb-487a-a226-d9370ce2eba3)
 
+### Project Plan: Business Demand Overview
 
-### Project Plan
-The primary objective of this project is to analyze hospital waitlist data in order to identify specialties that may require additional personnel and to detect any long-term trends in the waitlists. This analysis is essential for optimizing resource allocation and improving patient care within the hospital system.
+The project was planned based on business request I have summarised in a tablee below:
+
+- **Value of Change**: Visual dashboards and improved Sales reporting or forecasting.
+- **Necessary Systems**: Power BI, CRM System
+- **Other Relevant Info**: Budgets have been delivered in Excel for 2021
+
+
+| No | As a (role)            | I want (request/demand)                                | So that I (user value)                                        | Acceptance Criteria                                              |
+|----|------------------------|-------------------------------------------------------|---------------------------------------------------------------|------------------------------------------------------------------|
+| 1  | Sales Manager          | To get a dashboard overview of internet sales          | Can follow better which customers and products sell the best   | A Power BI dashboard which updates data once a day               |
+| 2  | Sales Representative   | A detailed overview of Internet Sales per Customers    | Can follow up my customers that buy the most and who we can sell ore to | A Power BI dashboard which allows me to filter data for each customer |
+| 3  | Sales Representative   | A detailed overview of Internet Sales per Products     | Can follow up my Products that sell the most                  | A Power BI dashboard which allows me to filter data for each Product  |
+| 4  | Sales Manager          | A dashboard overview of internet sales                 | Follow sales over time against budget                         | A Power BI dashboard with graphs and KPIs comparing against budget |
+
 
 ### Dataset
-The dataset comprises over 500,000 rows of detailed waitlist data from a large hospital chain. The data is divided into two primary categories: inpatient and outpatient data, each spanning over four years.
+The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used SQL to clean and transform the relevant information from the Data Warehouse.
 
-- **Inpatient Data**: Refers to patients who are admitted to the hospital and require an overnight stay. These cases often involve more severe conditions that need prolonged monitoring and treatment.
-- **Outpatient Data**: Refers to patients who receive medical treatment without being admitted to the hospital. These cases typically involve less severe conditions or follow-up treatments that do not necessitate an overnight stay.
-
-To facilitate comprehensive analysis, the inpatient and outpatient datasets were combined into a single table, allowing for an integrated view of all waitlist data across the four-year period. The richness of this dataset enables both longitudinal (long-term) insights and cross-sectional analysis, providing a robust foundation for understanding trends and patterns in hospital waitlists.
 
