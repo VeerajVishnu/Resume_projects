@@ -22,6 +22,10 @@ The project was planned based on business request I have summarised in a tablee 
 
 
 ### Dataset
-The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used SQL to clean and transform the relevant information from the Data Warehouse.
+The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used SQL to clean and transform the relevant information from the Data Warehouse and form the following data model.
+
+For Instance, this is the query I used to get relevant facts from the Internet sales fact table:
+
+This is the SQL Query used to extract the relevant information to form the customer dimensional table. 
 
 
