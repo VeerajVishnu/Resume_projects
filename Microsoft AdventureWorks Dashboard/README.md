@@ -22,34 +22,22 @@ The project was planned based on business request I have summarised in a tablee 
 
 
 ### Dataset
-The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used SQL to clean and transform the relevant information from the Data Warehouse and form the following data model.
+The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used SQL to clean and transform the relevant information from the Data Warehouse and form the following **data model**.
+![Model](https://github.com/user-attachments/assets/31541329-8195-4236-8c68-ef530d38e828)
 
-For Instance, this is the query I used to get relevant facts from the Internet sales fact table:
--- Cleansed DIM_DateTable
-SELECT
-    [DateKey],
-    [FullDateAlternateKey] AS Date,
-    --[DayNumberOfWeek],
-    [EnglishDayNameOfWeek] AS Day,
-    --[SpanishDayNameOfWeek]
-    --[FrenchDayNameOfWeek]
-    --[DayNumberOfMonth]
-    [WeekNumberOfYear] AS WeekNr,
-    [EnglishMonthName] AS Month,
-    LEFT([EnglishMonthName], 3) AS MonthShort,
-    --[SpanishMonthName]
-    --[FrenchMonthName]
-    [MonthNumberOfYear] AS MonthNr,
-    [CalendarQuarter] AS Quarter,
-    [CalendarYear] AS Year,
-    --[CalendarSemester]
-    --[FiscalYear]
-    --[FiscalQuarter]
-    --[FiscalSemester]
-FROM
-    [AdventureWorksDW2022].[dbo].[DimDate]
-WHERE CalendarYear >= 2019
+**SQL Queries**
 
-This is the SQL Query used to extract the relevant information to form the customer dimensional table. 
+I cleaned and got relevant information from the data warehouse using T-SQL queries. Here are a few Queries I used to get the Tables to form the dimentional and fact tables to form the above data model.
+
+- The query I wrote to get the Customer Dimentional Table
+  ![Customer_dim](https://github.com/user-attachments/assets/ff7a5e59-2c3d-48e5-9dc8-73596dcdd37a)
+
+- The Query I wrote to get the Product Dimentional Table
+  ![Product_dim](https://github.com/user-attachments/assets/32af91d9-bc82-441d-8e22-29f1d3887728)
+
+- The Query I wrote to get the Internet sales fact table
+![Internet_sales_fact](https://github.com/user-attachments/assets/520ff16b-a91b-4ab2-9fd1-428b565063da)
+
+
 
 
