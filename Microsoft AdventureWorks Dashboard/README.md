@@ -1,16 +1,19 @@
-# Microsoft AdventureWorks Sales PowerBI Dashboard
+# Microsoft AdventureWorks Sales Power BI Dashboard
 
 ## Overview
+
+This project involved the development of a comprehensive Power BI dashboard for Microsoft AdventureWorks, designed to provide actionable insights into sales performance. The dashboard offers both a high-level overview and detailed drill-down capabilities to help users make informed decisions.
+
 ![Overall_dash](https://github.com/user-attachments/assets/b13af47b-3e86-4b71-b836-554d9432a608)
 ![Detailed_Dash](https://github.com/user-attachments/assets/a205cb67-8cdb-487a-a226-d9370ce2eba3)
 
 ### Project Plan: Business Demand Overview
 
-The project was planned based on business request I have summarised in a tablee below:
+The project was initiated in response to a specific business need, which is summarized in the table below:
 
-- **Value of Change**: Visual dashboards and improved Sales reporting or forecasting.
+- **Value of Change**: Enhanced visual dashboards for improved sales reporting and forecasting.
 - **Necessary Systems**: Power BI, CRM System
-- **Other Relevant Info**: Budgets have been delivered in Excel for 2021
+- **Other Relevant Information**: Budgets for 2021 were provided in Excel format.
 
 
 | No | As a (role)            | I want (request/demand)                                | So that I (user value)                                        | Acceptance Criteria                                              |
