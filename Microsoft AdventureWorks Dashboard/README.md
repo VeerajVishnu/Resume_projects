@@ -39,5 +39,13 @@ I cleaned and got relevant information from the data warehouse using T-SQL queri
 ![Internet_sales_fact](https://github.com/user-attachments/assets/520ff16b-a91b-4ab2-9fd1-428b565063da)
 
 
+## Insights
+
+- **Sales by customers and cities** can be found using slicers or the interactive azure map. Chosing customers automatically provides the city they reside in on the map. We can see that Les Uilles is the City that generated the most sales, and the top customer within that city is Lisa Cai. We can also glean that bikes acconted for most of the sales.
+![top_city](https://github.com/user-attachments/assets/50581943-525a-4fea-82fb-f863f247051c)
+
+ 
+
+
 
 
