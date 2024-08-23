@@ -21,7 +21,7 @@ The project was planned based on business request I have summarised in a tablee 
 | 4  | Sales Manager          | A dashboard overview of internet sales                 | Follow sales over time against budget                         | A Power BI dashboard with graphs and KPIs comparing against budget |
 
 
-### Dataset
+## Data Model
 
 The dataset used is a subset of the Microsoft AdventureWorks Data Warehouse. I utilized SQL to clean and transform the relevant information, creating the following **data model**:
 
