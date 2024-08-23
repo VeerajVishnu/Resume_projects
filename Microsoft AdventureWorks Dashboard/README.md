@@ -25,6 +25,30 @@ The project was planned based on business request I have summarised in a tablee 
 The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used SQL to clean and transform the relevant information from the Data Warehouse and form the following data model.
 
 For Instance, this is the query I used to get relevant facts from the Internet sales fact table:
+-- Cleansed DIM_DateTable
+SELECT
+    [DateKey],
+    [FullDateAlternateKey] AS Date,
+    --[DayNumberOfWeek],
+    [EnglishDayNameOfWeek] AS Day,
+    --[SpanishDayNameOfWeek]
+    --[FrenchDayNameOfWeek]
+    --[DayNumberOfMonth]
+    [WeekNumberOfYear] AS WeekNr,
+    [EnglishMonthName] AS Month,
+    LEFT([EnglishMonthName], 3) AS MonthShort,
+    --[SpanishMonthName]
+    --[FrenchMonthName]
+    [MonthNumberOfYear] AS MonthNr,
+    [CalendarQuarter] AS Quarter,
+    [CalendarYear] AS Year,
+    --[CalendarSemester]
+    --[FiscalYear]
+    --[FiscalQuarter]
+    --[FiscalSemester]
+FROM
+    [AdventureWorksDW2022].[dbo].[DimDate]
+WHERE CalendarYear >= 2019
 
 This is the SQL Query used to extract the relevant information to form the customer dimensional table. 
 
