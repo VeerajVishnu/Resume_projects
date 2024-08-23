@@ -29,13 +29,13 @@ The dataset is a subset of the Microsoft AdventureWorks Data warehouse. I used S
 
 I cleaned and got relevant information from the data warehouse using T-SQL queries. Here are a few Queries I used to get the Tables to form the dimentional and fact tables to form the above data model.
 
-- The query I wrote to get the Customer Dimentional Table
+- The query I wrote to get the __Customer Dimentional Table__
   ![Customer_dim](https://github.com/user-attachments/assets/ff7a5e59-2c3d-48e5-9dc8-73596dcdd37a)
 
-- The Query I wrote to get the Product Dimentional Table
+- The Query I wrote to get the __Product Dimentional Table__
   ![Product_dim](https://github.com/user-attachments/assets/32af91d9-bc82-441d-8e22-29f1d3887728)
 
-- The Query I wrote to get the Internet sales fact table
+- The Query I wrote to get the __Internet sales fact table__
 ![Internet_sales_fact](https://github.com/user-attachments/assets/520ff16b-a91b-4ab2-9fd1-428b565063da)
 
 
