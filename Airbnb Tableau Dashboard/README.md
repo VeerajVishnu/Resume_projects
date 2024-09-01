@@ -48,5 +48,9 @@ The dataset used for this analysis is a subset of Airbnb listings in New York Ci
 ![Trends-All](https://github.com/user-attachments/assets/43c8a4c9-100d-4ac9-a096-4b88046fa2ce)
 ![trend- Home-apt](https://github.com/user-attachments/assets/114c6f9e-e0b6-45eb-b08c-c44bb4724708)
 
+- **Filter overall Dashboard**: We can do granular analysis of neighborhoods and room types using the dashboard. For instance, if we wanted to analyse the booking, growth and price trends in *Manhattan*, we can apply a fliter and view the results:
+
+![Manhattan](https://github.com/user-attachments/assets/d5db2dcf-f319-43fd-a625-e1f475e76c2d)
+
 This dashboard serves as a powerful tool for understanding the dynamics of the Airbnb market in New York City, providing actionable insights for hosts, investors, and market analysts.
 
