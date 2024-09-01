@@ -36,10 +36,12 @@ The dataset used for this analysis is a subset of Airbnb listings in New York Ci
 ![Heatmap](https://github.com/user-attachments/assets/8bcaa0b3-67e1-4a1d-bddf-1f91364589e3)
 
 - **Average Price by Neighborhood Group**: A tree map that visually represents the average price per night in each neighborhood, with Manhattan standing out as the most expensive.
-- 
+
 ![map](https://github.com/user-attachments/assets/96114a25-73dc-4eb3-b1a2-c790bf274135)
 
 - **Total Reviews by Year**: A line graph showing the trend of total reviews over the years, giving an indication of Airbnb's growth in NYC.
+
+![bar chart neighbourhood](https://github.com/user-attachments/assets/22b17bbd-b5de-40d0-9775-07b7afc6354f)
 
 - **Total Bookings by Month and Neighborhood Group**: A combined bar and line chart showing the seasonality of bookings, with peaks in summer months. We can see that all rom types are subject to this seasonality
 
